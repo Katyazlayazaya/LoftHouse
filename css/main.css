@@ -111,6 +111,18 @@ a:hover {
   text-align: right;
 }
 
+.visually-hidden {
+  height: 1px;
+  overflow: hidden;
+  width: 1px;
+  position: absolute;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  -webkit-clip-path: 50%;
+          clip-path: 50%;
+  white-space: nowrap;
+}
+
 .header {
   display: flex;
   flex-direction: column;
