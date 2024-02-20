@@ -1,7 +1,9 @@
 //Base
 @import './_base/_reset.scss'; //без нижнего подчеркивания тупит, выдает ошибку, если не автодополнение, а ручной ввод )
 @import './_base/vars';
+@import './_base/mixins';
 @import './_base/base';
+
 
 
 //Blocks
