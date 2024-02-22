@@ -136,6 +136,11 @@ a:hover {
   color: #D4C17F;
   font-weight: 700;
 }
+@media screen and (max-width: 959px) {
+  .title-2 {
+    font-size: 24px;
+  }
+}
 
 .link-bold {
   color: #D4C17F;
@@ -155,7 +160,7 @@ a:hover {
   padding-top: 30px;
   padding-bottom: 74px;
 }
-@media screen and (max-width: 999px) {
+@media screen and (max-width: 959px) {
   .header {
     min-height: unset;
     row-gap: 50px;
@@ -201,7 +206,7 @@ a:hover {
 .header__nav {
   display: block;
 }
-@media screen and (max-width: 999px) {
+@media screen and (max-width: 959px) {
   .header__nav {
     display: none;
   }
@@ -210,7 +215,7 @@ a:hover {
 .header__nav-btn {
   display: none;
 }
-@media screen and (max-width: 999px) {
+@media screen and (max-width: 959px) {
   .header__nav-btn {
     display: block;
   }
@@ -225,7 +230,7 @@ a:hover {
   color: #D4C17F;
   font-weight: 700;
 }
-@media screen and (max-width: 999px) {
+@media screen and (max-width: 959px) {
   .header__title {
     font-size: 32px;
     padding-bottom: 100px;
@@ -244,7 +249,7 @@ a:hover {
   grid-template-columns: 1fr 1fr;
   gap: 30px;
 }
-@media screen and (max-width: 999px) {
+@media screen and (max-width: 959px) {
   .header__footer {
     display: flex;
     flex-direction: column;
@@ -348,7 +353,7 @@ a:hover {
 .info--tel::before {
   background-image: url("./../img/header/phone.svg");
 }
-@media screen and (max-width: 999px) {
+@media screen and (max-width: 959px) {
   .info {
     font-size: 14px;
   }
@@ -384,6 +389,13 @@ a:hover {
   -moz-column-gap: 70px;
        column-gap: 70px;
 }
+@media screen and (max-width: 959px) {
+  .benefits__row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+    gap: 40px 30px;
+  }
+}
 
 .benefits__item {
   text-align: center;
@@ -392,12 +404,24 @@ a:hover {
 .benefits__item-img {
   margin-bottom: 53px;
 }
+@media screen and (max-width: 959px) {
+  .benefits__item-img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 20px;
+  }
+}
 
 .benefits__item-text {
   font-size: 20px;
   line-height: 1.35;
   font-family: "Roboto", sans-serif;
   font-weight: 300;
+}
+@media screen and (max-width: 959px) {
+  .benefits__item-text {
+    font-size: 16px;
+  }
 }
 
 .apartments {
@@ -419,11 +443,21 @@ a:hover {
 .apartments__title {
   margin-bottom: 88px;
 }
+@media screen and (max-width: 959px) {
+  .apartments__title {
+    margin-bottom: 44px;
+  }
+}
 
 .apartments__cards {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 30px;
+}
+@media screen and (max-width: 959px) {
+  .apartments__cards {
+    grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+  }
 }
 
 .cards {
@@ -478,6 +512,13 @@ a:hover {
   right: 20px;
   bottom: 44px;
   font-size: 24px;
+}
+@media screen and (max-width: 959px) {
+  .card__title {
+    font-size: 20px;
+    left: 30px;
+    bottom: 30px;
+  }
 }
 
 .cta {
