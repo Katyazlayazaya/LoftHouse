@@ -1,6 +1,8 @@
 .video {
+  overflow: hidden;
   position: relative;
   text-align: center;
+
 
   &::after {
     content: "IV";
@@ -37,6 +39,12 @@
   top: 50%;
   transform: translate(-50%, -50%);
   transition: all 0.2s ease-in;
+
+
+  @include mediaTablet{
+    height: 80px;
+    width: 80px;
+  }
 }
 
 .video__link:hover .video__icon {
